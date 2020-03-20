@@ -24,6 +24,15 @@
 
 ## 使用手册
 
+1.生成一个100M的测试文件
+```
+[root@linux-node1 ~]# dd if=/dev/zero of=bigfile.tar.gz count=1 bs=100M
+```
+
+2.为测试文件生成种子文件
+```
+[root@linux-node1 ~]# python /opt/filebt/murder_make_torrent.py bigfile.tar.gz 192.168.56.11:8998 bigfile.tar.gz.torrent
+```
 
 
 
