@@ -2,7 +2,7 @@
 
 基于murder的P2P文件分发工具
 
-在Twitter开源的(murder)[https://github.com/lg/murder]的基础上，增加一些便于使用的脚本。
+在Twitter开源的[murder](https://github.com/lg/murder)的基础上，增加一些便于使用的脚本。
 
 ## 产生背景
 
