@@ -10,9 +10,17 @@
 
 ## 部署手册
 
+1.克隆filebt代码
+```
+[root@linux-node1 ~]# git clone https://github.com/unixhot/filebt.git
+```
 
+2.部署tracker服务
 
-
+```
+[root@linux-node1 ~]# cd filebt/install/
+[root@linux-node1 install]# ./install.sh tracker
+```
 
 ## 使用手册
 
