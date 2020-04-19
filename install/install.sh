@@ -5,7 +5,7 @@ install_init(){
     LOG_PATH=${INSTALL_PATH}/logs
     DATA_PATH=${INSTALL_PATH}/data
     mkdir -p ${INSTALL_APTH} ${LOG_PATH} ${DATA_PATH}
-    /bin/cp -r ../src $INSTALL_PATH 
+    /bin/cp -r ../src/* $INSTALL_PATH 
     echo "------ code deploy end ------"
 }
 
